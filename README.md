@@ -1,9 +1,9 @@
 # cleandataclassproject
 Repository for Coursera Get and Clean Data Projet
 
-The purpose of the script attached, run_analysis.R, is to download accelerometer data for a training set and a test set.
+The purpose of the script attached, run_analysis.R, is to download accelerometer and gyroscope data from mobile phones for a training set and a test set.
 
-The data are combined into one data set and the individual measurements from replicate measurements are excluded leaving a single data set containing the averages and standard deviations of replicate measurements of multiple body movements measured by mobile phone accelerometers.
+The data are combined into one data set and the individual measurements from replicate measurements and other statistical summary data are excluded leaving a single data set containing the averages and standard deviations of replicate measurements of multiple body movements measured by mobile phone accelerometers.
 
 The average of the means (means of the means of all measurements) and the averages of the standard deviations are calculate for each subject in the study.
 
