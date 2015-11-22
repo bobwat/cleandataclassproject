@@ -3,8 +3,9 @@ walking downstairs, and walking upstairs.  This information is contained in the 
 dataset. Accelerometers (Acc) and Gyroscopes (Gyro) were used to make replicate measurements of various body motions in three
 direction(X,Y and Z). Some of he motions were transform to the frequency domain via a Fourier transform (Freq). The means listed in 
 the dataset are result of averaging the means of each replicate measurement for each subject and activity and the means of the 
-standard deviations(std) for each set of replicates.  Each individual measurement is a mean and has its own column variable with
-the descriptions given below:
+standard deviations(std) for each set of replicates. The accelerometer data was recording in standard gravity units, and the
+gyroscope data were measured in radians per second.  The data were then normalized and bounded with in -1 to 1. Each individual
+measurement is a mean and has its own column variable with the descriptions given below:
 "tBodyAcc.mean...X"                   
 "tBodyAcc.mean...Y"                    "tBodyAcc.mean...Z"                   
 "tGravityAcc.mean...X"                 "tGravityAcc.mean...Y"                
